@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FeedFix — Google Shopping Feed Audit, Fix & Re-Check | Local & Private</title>
+<meta name="description" content="FeedFix audits your Google Shopping product feed, fixes formatting errors (availability enums, price formats, URLs, HTML), then re-audits the repaired file to prove it. 100% local — your catalogue and pricing never leave your computer.">
+<style>
+  body{font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;margin:0;color:#1c2733;line-height:1.6;background:#fbfcfe}
+  .wrap{max-width:820px;margin:0 auto;padding:32px 20px 64px}
+  h1{font-size:2rem;line-height:1.25;margin:.2em 0}
+  h2{margin-top:2em;font-size:1.25rem}
+  .sub{font-size:1.1rem;color:#43536a}
+  .cta{display:inline-block;background:#0b6e4f;color:#fff;padding:12px 22px;border-radius:8px;text-decoration:none;font-weight:600;margin:16px 0}
+  .card{background:#fff;border:1px solid #e3e9f0;border-radius:10px;padding:18px 20px;margin:14px 0}
+  .num{font-weight:700;color:#0b6e4f}
+  footer{color:#7a8798;font-size:.85rem;margin-top:48px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <p><strong>FeedFix</strong></p>
+  <h1>Merchant Center is rejecting your products.<br>Find out why. Fix it. Prove it.</h1>
+  <p class="sub">FeedFix audits a Google Shopping feed, repairs the formatting errors, then <em>re-audits the repaired file</em> so you can see exactly what was fixed and what still needs your judgment. Everything runs on your own computer — your catalogue and pricing are never uploaded.</p>
+  <a class="cta" href="https://binbinster.gumroad.com/l/feedfix-google-shopping-feed-repair">Get FeedFix — $29 one-time</a>
+
+  <h2>What it fixes on its own</h2>
+  <div class="card">
+    <ul>
+      <li><strong>Availability values</strong> mapped to the required enums ("In Stock" → <code>in_stock</code>)</li>
+      <li><strong>Price formats</strong> normalized ($19.99 → 19.99 USD)</li>
+      <li><strong>http:// links</strong> upgraded to https://, relative image URLs made absolute</li>
+      <li><strong>HTML in descriptions</strong> stripped to plain text</li>
+      <li><strong>Missing condition</strong> filled with the platform default</li>
+    </ul>
+  </div>
+
+  <h2>What it reports, but never silently changes</h2>
+  <div class="card">
+    <p>GTINs that fail the check-digit test, duplicate ids, sale prices that aren't lower than the price, missing required attributes, promotional titles. You get the product id, the field, and a plain-English explanation — fabricating a barcode or a price would make things worse, so the decision stays yours.</p>
+  </div>
+
+  <h2>Verified, not vibes</h2>
+  <div class="card">
+    <p>In a seeded 12-product test feed with 21 planted problems, FeedFix repaired <span class="num">10</span> automatically; the re-check confirmed the same 11 human-decision items remained (5 blocking errors) and <span class="num">0 new issues</span> were introduced.</p>
+  </div>
+
+  <h2>How it works</h2>
+  <div class="card">
+    <ol>
+      <li>Open FeedFix, choose your <code>.csv</code> / <code>.tsv</code> feed export</li>
+      <li>Click <em>Audit, Fix &amp; Re-Check</em></li>
+      <li>Get back a repaired feed file, a fix log (old → new, with reasons), and the re-check report</li>
+    </ol>
+    <p>Windows 10/11. No account, no subscription, no upload. Your original file is never modified.</p>
+  </div>
+
+  <a class="cta" href="https://binbinster.gumroad.com/l/feedfix-google-shopping-feed-repair">Get FeedFix — $29 one-time</a>
+
+  <footer>
+    <p>FeedFix covers file-level data-spec errors (attributes, formats, identifiers). Account-level issues such as suspensions or misrepresentation findings cannot be seen from a feed file alone.</p>
+  </footer>
+</div>
+</body>
+</html>
